@@ -1,77 +1,138 @@
-# ADSP - from LA.UM.9.1.r1-10200-SMxxx0.0
-vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
-vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
-vendor/lib/libadsp_default_listener.so|0661159353dddedd0798117ff2e1c31396a02292
-vendor/lib/libadsprpc.so|c58fc8eb6c0919dc5c21e992a75996446d0107e5
-vendor/lib/libmdsprpc.so|85f8448bc9649fa618cbeb386efc2085c20ba1f7
-vendor/lib/libsdsprpc.so|e58239cc2cec4bad6d328b2f29295a247541ab1f
-vendor/lib64/libadsp_default_listener.so|f4738e7bf0d5205e9d3b5e290a931d03d2ef700d
-vendor/lib64/libadsprpc.so|77bcb86aceb726f45ef853f10d27d86211db4429
-vendor/lib64/libmdsprpc.so|0e3d865eb12827de8bef517e54be1b42c4c82484
-vendor/lib64/libsdsprpc.so|f1f31d4a306dbd6fef2f1b54cf1c7410c37900aa
+# ADSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/adsprpcd|12e09d8e87b260a8721c7938890186a0877a9e85
+vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc|77f5aaf6d773ee545e39bc5fdc99c65434c05379
+vendor/lib/libadsp_default_listener.so|49d7644708419ea077ffd9d00901ebf6cdd4377c
+vendor/lib/libadsprpc.so|2c45baa7c6a8743f7e433a25fc40aff0e6827c65
+vendor/lib/libmdsprpc.so|aa282b4586db545af420aeaa8db56d295458c8fa
+vendor/lib/libsdsprpc.so|5840457471e6ec0be98be444018134ad449627f1
+vendor/lib64/libadsp_default_listener.so|3ebcf635d6cdc447b8ecd40ea76bda39bf82c308
+vendor/lib64/libadsprpc.so|23f060277d2d62556ececafdd302f5c9ed04e71b
+vendor/lib64/libmdsprpc.so|8809bf6a1205973af25b5fc70a6fbef51b19d4cc
+vendor/lib64/libsdsprpc.so|3955edaff3a2950999f14b0b45c0507bb22a7410
 
-# ANT+ - from LA.UM.9.1.r1-10200-SMxxx0.0
+# ANT+ - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/lib/hw/com.dsi.ant@1.0-impl.so|d99ff0030ce14172d9d10e0b1f31b2d201aade10
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|0f8f5c3081d0ef745e0896b1fceea15f52fe3b21
 
-# Bluetooth - from LA.UM.9.1.r1-10200-SMxxx0.0
+# Bluetooth - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|af37592fc9b0b4e83449458a0fff1738135c9087
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|812022447af22597c9297e0c5744d4add6a0d58c
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|4bc5d9d6cdd338bddad7796417908e03d807e5bf
 vendor/lib/hw/audio.bluetooth_qti.default.so|4c5f66014e164e0cc15b86e433edbc1fd927ae20
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|af7aa9a784ffe39cfe3a9096c6a32673a6ee6551
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|f08a6b8a2067fdd2944b25bc9083985d461a7df4
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|5a42ba0026ff2635499abad6a1916a23a27d445c
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|4d7232ed02f6558e8c76e3374b1a1f0a16e53802
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|411231b527027ea62ef3f754c1a7894fa7b55834
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|06190d0a018caea67b9b3d73f06ef1e26c39517d
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|fb39a268bff9ad81e5db252d6a806f853ee136d5
-vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|0bc02d8763a66fbd4c17796390f9ca4e1baa1d57
-vendor/lib/btaudio_offload_if.so|78e1217c78dfd41e8cb722910e4c4a88f1553c76
-vendor/lib/libbluetooth_audio_session_qti.so|a173bced75aed21117140453c110a2e37301290e
-vendor/lib/libbluetooth_audio_session_qti_2_1.so|74133620a2b0b11d75c8eb6f4017371f2cff7c27
+vendor/lib/btaudio_offload_if.so|41da7a456247afb2b86c3f09b7a4d17fd487ea4b
+vendor/lib/libbluetooth_audio_session_qti.so|dff7e5863c142efd4612237ce2e88afb88de8c7d
+vendor/lib/libbluetooth_audio_session_qti_2_1.so|f6ef416459e39d356b53e966a8b5cc3455d135c2
 vendor/lib/libbt-hidlclient.so|6cb8d57c9fa5b2eec2cba368c4309b8b3f6452dd
 vendor/lib/libbtnv.so|c583896c2f114b4b841da5964c2518c4642acf3d
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|f98830f5efbdeb52635ddcf9cf7dd06f84e34fa1
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|cf00577d731b4f600280d72cfba27504e016a7d8
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|e31d1a54c677b9734d8b5521bb012102291ea2c0
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|b5fbf182f3f9611007dd1e360c645b82071a9fff
 vendor/lib64/hw/audio.bluetooth_qti.default.so|812fbc4311829b457c24a251f06d5b9c41389201
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|4c2837cad49ade190232f2a9d3377f1ebb669b1a
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|02d4d32edbd8933255722e9068ed16c470795fbb
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|7d5e57dce3d06982c4225c7a5139a901ec604698
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|85d131d95ed1c433e1b9c2a250d2177c9bf7ab7f
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|e02fc5b9c1a29de1262ebdd985c51f1fc219041c
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|5aa7cb2565bec19054eb8d5c6a5c001c4e479e0b
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|d28d3039d4aeba172827221fd5175b326251e683
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|c229e2b0c94f941ba847cf16e993d01ac3e89aec
-vendor/lib64/btaudio_offload_if.so|0d3c444d62184741e855f019b0ae5d431bc18475
-vendor/lib64/libbluetooth_audio_session_qti.so|f543f3864e62492c01769891b2dbe0b13f1f1eb2
-vendor/lib64/libbluetooth_audio_session_qti_2_1.so|8594a1d866d8e931d0c75e8d4178843538878bf2
+vendor/lib64/btaudio_offload_if.so|099cd6753bba45f40cad29f3d7ee8c94300fee7f
+vendor/lib64/libbluetooth_audio_session_qti.so|fc69a639964b5a11bf17b8bb7c0ad9ac97056127
+vendor/lib64/libbluetooth_audio_session_qti_2_1.so|bdef11bc12f1f1b0d63833dccd0abce81130a75e
 vendor/lib64/libbt-hidlclient.so|d587a008c01270528465a9b6e001efb700ab6243
 vendor/lib64/libbtnv.so|b7e9c2dc35ce9eb959d7060963a9b3b008e59764
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|bef043fd17661bc61f3f03dbf355dd5af195ab50
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|8c14f8120a37db2eb95239c6caa33d881a9b3ad0
 
-# CDSP - from LA.UM.9.1.r1-10200-SMxxx0.0
-vendor/bin/cdsprpcd|ea126ed2f1b11622547239f331b8013320c59ad2
+# CDSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/cdsprpcd|530bcfcf9a31dedcc6c8ff5ea33fbaf8c03ab877
 vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
-vendor/lib/libcdsp_default_listener.so|5e90f604ac99493cfc08a89a2b58f5cf7bfb9683
-vendor/lib/libcdsprpc.so|3f4064f2c26f3bb4eef9175fe5970207f8734130
+vendor/lib/libcdsp_default_listener.so|6a3f97faf26da3d01f7895d37c09c8bc62030e0a
+vendor/lib/libcdsprpc.so|4e96a58922494800b65ac0f269db23fd7aeb3ae3
 vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
-vendor/lib64/libcdsp_default_listener.so|49de35be8f90e282de225596ab90661fa8ac4422
-vendor/lib64/libcdsprpc.so|daa90f06b3bdb89779f1dac92bc77ee5455a22b6
+vendor/lib64/libcdsp_default_listener.so|81e5f4737bfb7e2f0a906183b2a8357a5053ee5c
+vendor/lib64/libcdsprpc.so|c9eb743013b62cdfa13eaf1f9c29945d2d3de826
 vendor/lib64/libsysmon_cdsp_skel.so|8a951e039071107317e0e7541ff4df7ad35d87ad
 
-# Display - from LA.UM.9.1.r1-10200-SMxxx0.0
-vendor/lib64/libdisplayqos.so|5548732c916e629f18f45ce257ce843b679a136a
-vendor/lib64/libhdr_tm.so|b4d129efafedbc82e122ef7edff26ca65204b630
-vendor/lib64/libqseed3.so|7f2a659fb9acd84d79c11dbd6901b816d5d1214f
-vendor/lib64/libsdedrm.so|4946c7d14a462b289c2b4712a5540a8ab226c8a7
-vendor/lib64/libsdm-color.so|6ec7a96ba7b6ac82e6704fc872f625f2db3b1c6a
-vendor/lib64/libsdm-colormgr-algo.so|073245d67ec606f7b73c34e2b4956ebcc81b350c
-vendor/lib64/libsdm-diag.so|c21a643ab4ec151e0374df8ce5b839f71d07df90
-vendor/lib64/libsdm-disp-vndapis.so|4fbf76da3a9eb5d227f948521bd4c80842446bb4
-vendor/lib64/libsdmextension.so|86c2235a51a2d8143ff80d9adf273191b2987d8a
-vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
+# Charger - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/hvdcp_opti|2f11f89c6c7741f6837d873939b392217e2cc3c1
+vendor/bin/init.qti.chg_policy.sh|9a96b05abdfe149eb8a7e20a791284e84b5fffe0
+vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
+vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 
-# DSP - from LA.UM.9.1.r1-10200-SMxxx0.0
-vendor/bin/dspservice|a8eb76af6150bbf29c12b76b00ab469b99f563f7
+# DSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/dspservice|a7344fc3d27a49df30858ebc3f73ee5818e752d4
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so|0af387d416acf6d697b9edd4090e3a6941696970
+
+# FM - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|1b238f6b0494313fb217c7af55a9d4a59f982d59
+vendor/lib/vendor.qti.hardware.fm@1.0.so|e16ea9c7641064eb170b98f636fbbf81ae6a1618
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|5c938c9eb6060bfeac1752b4e6d07101bb2430df
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|49e99338190dbbe0a5db2be70fa68f24e3fd18fa
+
+# GPS - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/garden_app|177597e4f5afaae68f53840624262c9853f50696
+vendor/bin/loc_launcher|64ba2a8214ecdc70965c4a9025321e12bc50f793
+vendor/bin/lowi-server|6a78b8e8ff3267277a49f78a7ba11498229ed2fb
+vendor/bin/mlid|8c95b94b28d38dcff915b68b1086c932533334c3
+vendor/bin/slim_daemon|f206fd59f5b6fd1531d559d150f0dcb1633b6e13
+vendor/bin/xtra-daemon|a832090f030ac09937d0e47dc55758b4710f6c6e
+vendor/bin/xtwifi-client|ed0895aaf362cf11e529e1f8c1601f0591c8e7b1
+vendor/bin/xtwifi-inet-agent|2453d2776049b9ef2b29f6abe1256359f321a088
+vendor/etc/seccomp_policy/gnss@2.0-base.policy|abafcf09068ec6fa62f8fc11ce6a7f51fe4cfb81
+vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy|3f8e3466eaeb966e57c5b79b688a618295eb4b17
+vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy|45b44cf547358961841aeba728851e32dc0a5230
+vendor/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy|9c0419bf0a0b4ef129527a9d4c024a624ff34d6e
+-vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
+vendor/etc/apdr.conf|52c9b4265e55c87ddf07c9b60817b3c09420712a
+vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
+vendor/etc/izat.conf|2ac768473abee2bf6af0bbc59233d30562e9fb22
+vendor/etc/lowi.conf|2045e83483849a124e5fef052b59190f1b784df0
+vendor/etc/sap.conf|b5ea86d9d9ee36dc13194474d343dae36f6fa032
+vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
+vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
+vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|85d86cfcf3cf60dc69974ed71b17dc6dc8c40381
+vendor/lib64/libcapiv2svarnn.so|6786511acd1925926d09011ae3e22deb3162d142
+vendor/lib64/libcdfw.so|70ef0247c71d590b503471a03d4aaa76d99441e9
+vendor/lib64/libcdfw_remote_api.so|faaf6c57e4c1c40d5e604d6932704bf63d883e96
+vendor/lib64/libdataitems.so|942a04a284ca2c088f726d5cd40cbabaca12664c
+vendor/lib64/libgarden.so|8280148f80c15a992720e84222b22f641525a17e
+vendor/lib64/libgarden_haltests_e2e.so|d0924ec8e0d4a130cc9bb00c04efd91964f11a49
+vendor/lib64/libgdtap.so|ad5583ba837678f78c84a7ff64a4fae5a3b1097d
+vendor/lib64/libgnsspps.so|0522543abb745e616e495613b171cb4e65e97321
+vendor/lib64/libizat_client_api.so|67611af03e4622aa4ab8f00aca4c44678972016e
+vendor/lib64/libizat_core.so|3b197e431d6b311ec949ba8d2b565aaf45253d26
+vendor/lib64/liblbs_core.so|41b578c7fb1fd1e18c2eb64aebf6119182e9311a
+vendor/lib64/libloc_api_v02.so|515e8e2a2511c4ce30753e091f3f3286930948d4
+vendor/lib64/libloc_api_wds.so|e480e856dce66c825734da8cd6858a20c821471c
+vendor/lib64/libloc_socket.so|df799255c50ef4ee67fdb1042f2877ac5be8307a
+vendor/lib64/liblocationservice.so|a61183f6919d64ca0818cc95f3fa12abed784b63
+vendor/lib64/liblocationservice_glue.so|39087f6c4309f695864b7f0f2768ff85e2bce838
+vendor/lib64/liblowi_client.so|59d98f1cfdec67eb0f7115066aeab43e4304c95c
+vendor/lib64/liblowi_wifihal.so|db59c80dc7f36b4b6498bea7acea2f9be5234f7c
+vendor/lib64/libqcc_file_agent.so|cd70ce305d5036a027060aa989b0dcbcfab8edb6
+vendor/lib64/libslimclient.so|a3baca4c19b096f310d4f0cba70b1d784e80ca49
+vendor/lib64/libsynergy_loc_api.so|f6a44f3e1b30341b7053d341d67b5608c81fc7dd
+vendor/lib64/libxtadapter.so|caf0ca0a97e43a20fcd584e12c280a1654fc6b00
+vendor/lib64/libxtwifi_server_protocol.so|ca42a0576b5b890338a1e04cd5d36aef6ebaee27
+vendor/lib64/libxtwifi_server_protocol_uri_v3.so|7fdac704f7c923b09dd3b658e6699c4ef2452cb8
+vendor/lib64/vendor.qti.gnss@1.0.so|9cb7921c8310d1bca9385c997965abf64e8937df
+vendor/lib64/vendor.qti.gnss@1.1.so|62d38c1b5e02205f64ca98cce2f8309054fd6d70
+vendor/lib64/vendor.qti.gnss@1.2.so|1ea87dffaebb7071fa4098efe239a0da583841ff
+vendor/lib64/vendor.qti.gnss@2.0.so|8af004202ed9d4ace2352e3053f1c5f941dcd8df
+vendor/lib64/vendor.qti.gnss@2.1.so|62d2036fb2fec16c00fd3f04f9b8a846719f5f49
+vendor/lib64/vendor.qti.gnss@3.0.so|491917101ba1182d0a6f849323690f5636277447
+vendor/lib64/vendor.qti.gnss@4.0-service.so|d4ad241375b02946f2822888f7cc95704210a929
+vendor/lib64/vendor.qti.gnss@4.0.so|5ef1845cf0a310a52bfbdbc719685270ea4e39b3
+
+# Power-off alarm
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|23ab1405821bb30553f20ad5e785959008440f7f
+vendor/bin/power_off_alarm|dcab61bc1312941b506cb22b1236edee72080318
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|02a314f7dc19b06dfd9a45b0c0bcd0aca6e822bb
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|7c89039a1d670ff6f92ada82bd1ff2c2366dd145
